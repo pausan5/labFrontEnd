@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">        
+    </head>
+<body>
+
+    <form class="form" id="form">
+        <h2>Create Account</h2>
+
+    <!-- Entrada para el nombre -->
+
+    <div class="form-control">
+        <label>Nombre</label>
+        <input type="text" id="username">
+        <img class="error" src="imagenes/error-icon.svg">        
+        <img class="success" src="imagenes/success-icon.svg">
+        <small>Mensaje de error</small>
+        <br />
+    </div>
+
+    <!-- Entrada para email -->
+     <div class="form-control">
+        <label>Email</label>
+        <input type="email" id="email">
+        <img class="error" src="imagenes/error-icon.svg">        
+        <img class="success" src="imagenes/success-icon.svg">
+        <small>Mensaje de error</small>
+        <br />
+    </div>
+
+
+    <!-- Entrada para contraseña -->
+    <div class="form-control">
+        <label>Clave</label>
+        <input type="password" id="password">
+        <img class="error" src="imagenes/error-icon.svg">        
+        <img class="success" src="imagenes/success-icon.svg">
+        <small>Mensaje de error</small>
+        <br />
+    </div>
+
+
+    <!-- Confirmar la contraseña -->
+    <div class="form-control">
+        <label>Confirme su clave</label>
+        <input type="password" id="password2">
+        <img class="error" src="imagenes/error-icon.svg">        
+        <img class="success" src="imagenes/success-icon.svg">
+        <small>Mensaje de error</small>
+        <br />
+    </div>
+    
+    <button type="submit">ENVIAR</button>
+</form>
+<script src="index.js"></script>
+</body>
+</html>
